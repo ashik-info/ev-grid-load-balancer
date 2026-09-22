@@ -1,7 +1,7 @@
 
- **Dynamic Grid Load Balancer & Emergency Throttler**.
+ **Dynamic Grid Load Balancer & Emergency Throttler**
 
-## **![][image1]1\. System Architecture & Component Interactions**
+**System Architecture & Component Interactions**
 
 `+---------------------------------------------------------------------------------+`  
 `|                              Dockerized Edge Layer                              |`  
