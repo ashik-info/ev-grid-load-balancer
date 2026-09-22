@@ -1,5 +1,10 @@
 # **EV Smart-Charging & Micro-Grid Load Balancer**
 
+<img width="2048" height="945" alt="image" src="https://github.com/user-attachments/assets/391e6196-e284-48f8-bdf2-5d2174143d57" />
+
+
+
+
 An energy orchestration engine balancing power draw across hundreds of urban Electric Vehicle charging hubs during peak grid hours.
 
 > * **How the stack works:** Charging stations stream voltage draw, queue depth, and battery states continuously over **MQTT**. High-volume data flows into **RabbitMQ work queues**, where a Go-based load-balancing engine runs dynamic power distribution algorithms. The hub uses persistent **gRPC streams** to push millisecond power-throttle and boost directives down to sub-station grid transformers.  
